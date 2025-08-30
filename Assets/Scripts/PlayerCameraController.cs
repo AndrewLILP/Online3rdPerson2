@@ -13,7 +13,7 @@ public class PlayerCameraController : NetworkBehaviour
         if (IsOwner)
         {
             playerCamera.SetActive(true);
-            Camera.main.enabled = false; // Disable the main camera if it exists
+            //Camera.main.enabled = false; // Disable the main camera if it exists
         }
         else
         {
